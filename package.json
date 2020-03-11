@@ -1,0 +1,23 @@
+{
+  "name": "nustudentenkamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joramvb2/NuStudentenkamer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joramvb2/NuStudentenkamer/issues"
+  },
+  "homepage": "https://github.com/joramvb2/NuStudentenkamer#readme"
+}
