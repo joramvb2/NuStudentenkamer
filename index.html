@@ -5,6 +5,7 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <title>Project</title>
+     <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
      <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
          integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
@@ -15,18 +16,18 @@
          integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.7.5/default/bulmaswatch.min.css"
          integrity="sha256-2gZwxF087zGkFiJwBXa2xAiNMpFzLwRh/4FJ2o+BMdA=" crossorigin="anonymous" />
-     <link rel="stylesheet" href="style.scss">
  </head>
 
  <body>
 
      <!-- NAVBAR -->
      <div class="container-fluid">
-         <nav class="navbar is-dark role=" navigation" aria-label="main navigation">
+         <nav class="navbar role=" navigation" aria-label="main navigation">
              <div class="navbar-brand">
                  <a class="navbar-item" href="#">
                      <img src="./images/Bedrijf_Logo.png" width="112" height="28">
                  </a>
+
 
                  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
                      <span aria-hidden="true"></span>
@@ -37,15 +38,15 @@
 
              <div id="navbarBasicExample" class="navbar-menu">
                  <div class="navbar-start">
-                     <a class="navbar-item">
+                     <a class="navbar-item" href="#">
                          Home
                      </a>
 
-                     <a class="navbar-item">
+                     <a class="navbar-item" href="#">
                          Documentation
                      </a>
 
-                     <a class="navbar-item">
+                     <a class="navbar-item" href="#">
                          Regels voor bedrijven
                      </a>
                  </div>
@@ -54,6 +55,9 @@
                      <div class="navbar-item">
                          <div class="buttons">
                              <a class="button is-dark">
+
+                                 <i class="far fa-user-circle"></i>
+                                 <span class="icon"></span>
                                  <p>Log in</p>
                              </a>
                              <a class="button is-dark">
@@ -75,7 +79,118 @@
                  </figure>
              </div>
          </div>
+
+
+         <!-- GRID -->
+         <div style="margin-top:20px; margin-bottom:20px">
+             <div class="columns">
+                 <div class="column">
+                     <div class="column">
+                         <div class="card">
+                             <div class="card-image">
+                                 <figure class="image is-4by3">
+                                     <img src="./images/voorpagina_afbeelding.jpg" alt="Kamer Afbeelding">
+                                 </figure>
+                             </div>
+                             <div class="card-content">
+                                 <div class="content has-text-black">
+                                     <p>Kamer beschrijving</p>
+                                     <div class="buttons">
+                                         <a href="#" class="button is-dark">Bezoek aanbod</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="column">
+                     <div class="column">
+                         <div class="card">
+                             <div class="card-image">
+                                 <figure class="image is-4by3">
+                                     <img src="./images/voorpagina_afbeelding.jpg" alt="Kamer Afbeelding">
+                                 </figure>
+                             </div>
+                             <div class="card-content">
+                                 <div class="content has-text-black">
+                                     <p>Kamer beschrijving</p>
+                                     <div class="buttons">
+                                         <a href="#" class="button is-dark">Bezoek aanbod</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="column">
+                     <div class="column">
+                         <div class="card">
+                             <div class="card-image">
+                                 <figure class="image is-4by3">
+                                     <img src="./images/voorpagina_afbeelding.jpg" alt="Kamer Afbeelding">
+                                 </figure>
+                             </div>
+                             <div class="card-content">
+                                 <div class="content has-text-black">
+                                     <p>Kamer beschrijving</p>
+                                     <div class="buttons">
+                                         <a href="#" class="button is-dark">Bezoek aanbod</a>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
      </div>
+
+
+     <!-- FOOTER -->
+     <footer class="footer" style="margin-bottom: 19px;">
+         <div class="content has-text-centered">
+             <p>Welkom op <strong>NUstudentenkamer!</strong> <br>
+                 Op deze pagina kunt u zich inschrijven voor een van onze studentenkamers!
+                 <hr class="has-background-black">
+                 <i class="far fa-copyright"></i>
+                 <span>NUstudentenkamer</span>
+             </p>
+             <a href="#">
+                 <span class="icon">
+                     <i class="fab fa-facebook"></i>
+                 </span>
+             </a>
+             <a href="#">
+                 <span class="icon">
+                     <i class="fab fa-twitter"></i>
+                 </span>
+             </a>
+             <a href="#">
+                 <span class="icon">
+                     <i class="fab fa-pinterest"></i>
+                 </span>
+             </a>
+         </div>
+     </footer>
+
+     <!-- WEBSITE STYLING -->
+     <style>
+         body {
+             background-color: #E6F2F7;
+         }
+
+         .navbar {
+             background-color: #F7A100;
+         }
+
+         .footer {
+             background-color: #F7A100;
+         }
+
+         .icon {
+             color: black;
+         }
+     </style>
 
  </body>
 

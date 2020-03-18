@@ -1,3 +1,5 @@
+// <----- BURGER ----->
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -36,4 +38,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
+  // <----- BURGER ----->
 
